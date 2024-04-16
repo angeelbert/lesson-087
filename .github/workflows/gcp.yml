@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - uses: google-github-actions/setup-gcloud@master #To connect Docker Container Registry
+      - uses: google-github-actions/setup-gcloud@main #To connect Docker Container Registry
         with:
           service_account_key: ${{ secrets.SERVICE_ACCOUNT_KEY }}
           project_id: ${{ env.PROJECT_ID }}
