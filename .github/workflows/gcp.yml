@@ -10,7 +10,8 @@ jobs:
     env:
       IMAGE_NAME: lesson-087
       PROJECT_ID: tidy-rig-283500
-      steps:
+
+    steps:
       - name: Checkout
         uses: actions/checkout@v2
 
